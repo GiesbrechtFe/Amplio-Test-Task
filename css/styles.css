@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../fonts/Avenir Next Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../fonts/Avenir Next Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../fonts/Avenir Next Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../fonts/Avenir Next Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../fonts/Avenir Next Demi.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../fonts/Avenir Next Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-navy: #242e6f;
+  --color-ink: #10103a;
+  --color-amber: #faa51a;
+  --color-sky: #0077be;
+  --color-mist: #f4f6f9;
+  --color-ice: #e7f2fb;
+  --color-card: #f3f7fb;
+  --background-image-gradient-3: linear-gradient(90deg, #ef4a22 0%, #faa51a 93.52%);
+  --font-sans: "Avenir Next", ui-sans-serif, system-ui, sans-serif;
+}
+
+[x-cloak] {
+  display: none !important;
+}
